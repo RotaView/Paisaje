@@ -1,0 +1,30 @@
+<!-- BY: David Santiago Cardenas Rotavista -->
+<!-- Noviembre 2020 -->
+<!-- Paisaje Animado -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./estilo.css">
+	<title>Paisaje Animado</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+</head>
+<body>
+		<h1>Paisaje Animado</h1>
+	<canvas width="500" height="500" style="border:solid" id="MiCanvas"></canvas>
+	<script src="./Paisaje.js"></script>
+	<script type="text/javascript">
+		function setup() {
+  			//Palmera
+            let pal = createImg("./palmera.png");
+                	pal.size(500, 500);
+                	pal.position(0,149);
+		}
+
+		function draw() {
+
+		}
+	</script>
+</body>
+</html>
